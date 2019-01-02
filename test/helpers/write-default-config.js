@@ -7,7 +7,7 @@ const config = {
 		port: 5000
 	},
 	target: {
-		domain: "http://google.com"
+		domain: "http://localhost:5001/"
 	},
 	responses: []
 };

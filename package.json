@@ -25,11 +25,14 @@
   "homepage": "https://github.com/WIVSW/node-proxy-server#readme",
   "dependencies": {
     "fs-extra": "^7.0.1",
+    "http-proxy": "^1.17.0",
+    "http-proxy-response-rewrite": "0.0.1",
     "install": "^0.12.2",
     "nodemon": "^1.18.4",
     "npm": "^6.5.0"
   },
   "devDependencies": {
+    "express": "^4.16.4",
     "mocha": "^5.2.0"
   }
 }
