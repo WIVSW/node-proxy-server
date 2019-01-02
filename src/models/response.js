@@ -5,12 +5,10 @@ const readFile = promisify(fs.readFile);
 
 class Response {
 
-	constructor(uri, filePath) {
-		this.PATH = resolve(__dirname, '../../place-for-your-responses/');
-
+	constructor(uri, filePath, responsePath) {
 		this.uri = uri;
 		this.path = typeof filePath === 'string' ?
-			resolve(this.PATH, filePath) : null;
+			resolve(responsePath, filePath) : null;
 		this._content = null;
 	}
 
@@ -25,7 +23,7 @@ class Response {
 		
 		return readFile(this.path)
 			.then((string) => this._content = string)
-			.catch((err) => console.log(err));
+			.catch((err) => {});
 	}
 
 	isValid() {

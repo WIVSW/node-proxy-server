@@ -11,7 +11,7 @@
   "scripts": {
     "start": "nodemon src/index.js",
     "test": "mocha test/index.js",
-    "test-watch": "nodemon --exec 'npm test'"
+    "test-watch": "nodemon --ignore 'config/*' --exec 'npm test'"
   },
   "repository": {
     "type": "git",
