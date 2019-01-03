@@ -3,7 +3,7 @@ const config = require('../config/config.json');
 const http = require('http');
 const httpProxy = require('http-proxy');
 
-const {pathes} = require('./common/const');
+const {pathes} = require('../common/const');
 const ResponseProvider = require('./reponses-provider');
 
 const provider = new ResponseProvider(pathes.placeForYourResponses, pathes.config);

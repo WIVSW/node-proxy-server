@@ -1,9 +1,0 @@
-{
-	"proxy": {
-		"host": "localhost",
-		"port": "5000"
-	},
-	"target": {
-		"domain": "http://google.com"
-	}
-}

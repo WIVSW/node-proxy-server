@@ -1,6 +1,6 @@
 const path = require('path');
 const fse = require('fs-extra');
-const {pathes} = require('../src/common/const');
+const {pathes} = require('../common/const');
 const writeDefaultConfig = require('./helpers/write-default-config');
 const changeConfigResponses = require('./helpers/change-config-responses');
 

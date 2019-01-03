@@ -1,5 +1,5 @@
 const fse = require('fs-extra');
-const {pathes} = require('../../src/common/const');
+const {pathes} = require('../../common/const');
 
 module.exports = (responses) => {
 	return fse

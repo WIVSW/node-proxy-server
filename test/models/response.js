@@ -4,7 +4,7 @@ const fse = require('fs-extra');
 const {promisify} = require('util');
 const writeFile = promisify(fs.writeFile);
 
-const {pathes} = require('../../src/common/const');
+const {pathes} = require('../../common/const');
 const Response = require('../../src/models/response');
 const PLACE_RESPONSES = path.resolve(__dirname, '../../place-for-your-responses/');
 

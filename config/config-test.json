@@ -4,7 +4,7 @@
 		"port": 5000
 	},
 	"target": {
-		"domain": "http://localhost:5001/"
+		"domain": "example.com"
 	},
 	"responses": []
 }
