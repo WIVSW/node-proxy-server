@@ -29,7 +29,8 @@
     "http-proxy": "^1.17.0",
     "install": "^0.12.2",
     "nodemon": "^1.18.4",
-    "npm": "^6.5.0"
+    "npm": "^6.5.0",
+    "prompt": "^1.0.0"
   },
   "devDependencies": {
     "express": "^4.16.4",
